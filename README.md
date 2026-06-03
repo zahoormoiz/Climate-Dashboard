@@ -38,6 +38,8 @@ The app opens at `http://localhost:8501`.
 
 Vercel serves the static dashboard from `index.html` and reads the bundled dataset from `data/monthly.csv`.
 
+> If you see a Vercel error about `services`, change the project Framework Preset to **Other / Static Site** in the Vercel project settings. The repo is configured as a static site, not a service.
+
 ### Streamlit Community Cloud
 
 1. Push this folder to a GitHub repository.
